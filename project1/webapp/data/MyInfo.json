@@ -1,0 +1,30 @@
+{
+    "FirstName": "Rajesh",
+    "LastName": "Bethamcharla",
+    "Address": {
+        "Location": "Al Khobar",
+        "Phone": "0593069848"
+    },
+    "FamileDetails": [
+        {
+            "Name": "Bhavya",
+            "Image": "sap-icon://accept",
+            "Disignation": "Wife"
+        },
+        {
+            "Name": "Gnana Harini",
+            "Image": "sap-icon://customer-and-contacts",
+            "Disignation": "Child 1"
+        },
+        {
+            "Name": "Sahasra",
+            "Image": "sap-icon://customer-and-contacts",
+            "Disignation": "Child 2"
+        },
+        {
+            "Name": "Rudransh",
+            "Image": "sap-icon://customer-and-contacts",
+            "Disignation": "Child 3"
+        }
+    ]
+}

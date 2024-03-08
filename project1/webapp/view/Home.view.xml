@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.sap.project1.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Label text="First Name" />
+            <Input value="{/FirstName}" />
+            <Label text="Last Name" />
+            <Input value="{/LastName}" />
+            <List headerText="Family Details"
+		          headerLevel="H2"
+                  mode="SingleSelectMaster" 
+                  selectionChange="onSelectionChange"
+                  items="{/FamileDetails}">
+                <StandardListItem title="{Name}" icon="{Image}" description="{Disignation}" press="OnListPress"/>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
